@@ -1,0 +1,74 @@
+/* The below css is for header of the page, the header of the page is going to remain constant, only
+ the body is going to chagne.
+  */
+
+  /* Styling for navBar, I have made nav Bar as flex, and all the element inside this navBar is going to 
+  in row wise */
+
+  body{
+    background-image: url('/images/5f4e156d7214a0a8f4a95e19_Let-Data-tell-your-story.png');
+    background-repeat: no-repeat;
+  }
+  .navBar{
+    background-color: #ffffffdd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    /* position: relative; */
+}
+/* These styling are for anchor tag in navBar */
+.nameOfApp a{
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(5 6 6);
+    margin-left: 40px;
+    font-weight: 600;
+}
+.nameOfApp a:hover{
+    color: rgb(5 6 6);
+}
+
+/* for the name of users */
+.nameOfUser{
+    font-size: 30px;
+    color: rgb(5 6 6);
+    font-weight: 600;
+}
+.nameOfUser:hover{
+    color: rgb(5 6 6);
+}
+
+/* Thesse styling are for logOut, button which is present on the navBar */
+.logOut a{
+    font-size: 30px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(5 6 6);
+    font-weight: 600;
+}
+.logOut a:hover{
+    color:rgb(5 6 6);
+}
+
+.noUser ul{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.noUser li{
+    list-style: none;
+    font-size: 25px;
+    padding-left: 10px;
+    margin-left: 25px;
+}
+
+.noUser li a{
+    text-decoration: none;
+    color:rgb(5 6 6);
+    font-weight: 600;
+}
+.noUser li a:hover{
+    color: rgb(5 6 6);
+}
