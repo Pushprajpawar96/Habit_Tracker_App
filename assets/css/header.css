@@ -6,11 +6,12 @@
   in row wise */
 
   body{
-    background-image: url('/images/5f4e156d7214a0a8f4a95e19_Let-Data-tell-your-story.png');
-    background-repeat: no-repeat;
+    background-color: #FCD122;
+    background-image: url('/images/1_ZhuqSg8Jmz4p8H6X5U1uzQ.png');
+    background-size: cover;
   }
   .navBar{
-    background-color: #ffffffdd;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

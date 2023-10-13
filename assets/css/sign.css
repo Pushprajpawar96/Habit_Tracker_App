@@ -1,7 +1,9 @@
 body{
     /* background-image: url('/images/main-qimg-ca0a33edf89fdc6cf1dd7501b0a74a4e-lq.jpg') ;
     height: 100px; */
-    background-color: chartreuse;
+    background-color: #FCD122;
+    background-image: url('/images/1_ZhuqSg8Jmz4p8H6X5U1uzQ.png');
+    background-size: cover;
 }
 /* The concept for the desigin the sing-in/sign-up/forget_password page was of giveing the disply as flex */
 /* Then arranged it as accordingly. For achiving the purpose I have made one outerForm, and inside it one inner form 
